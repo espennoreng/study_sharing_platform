@@ -10,8 +10,6 @@
 *.userosscache
 *.sln.docstates
 
-## ignore firebase folder
-Firebase/
 
 ## ingnore google-services.json
 google-services.json
