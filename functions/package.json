@@ -1,0 +1,32 @@
+{
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "restartEm": "npx kill-port 4000 5001 9199 9099 8080 && npm run build && firebase emulators:start",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^10.2.0",
+    "firebase-functions": "^3.21.0",
+    "kill-port": "^2.0.0",
+    "office-document-properties": "^1.1.0",
+    "office-text-extractor": "^1.5.0",
+    "pdf-parse": "^1.1.1",
+    "randomcolor": "^0.6.2",
+    "textract": "^2.5.0",
+    "word-extractor": "^1.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "private": true
+}
