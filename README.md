@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Finnfasit.no
+
+I created this study platform as a challenge for myself since I wanted to learn technologies like Next.js, react, tailwind and firebase.
+
+Feel free to fork- and update it.
+
 ## Getting Started
 
 First, run the development server:
