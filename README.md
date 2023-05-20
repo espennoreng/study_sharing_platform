@@ -1,5 +1,7 @@
 ## Finnfasit.no
 
+Open [https://finnfasit.no/dokumenter](Finnfasit.no)
+
 I created this study platform as a challenge for myself since I wanted to learn technologies like Next.js, react, tailwind and firebase.
 
 Feel free to fork- and update it.
